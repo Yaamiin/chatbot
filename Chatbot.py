@@ -16,7 +16,7 @@ bot_token= BOT_TOKEN
 print("[INFO]: Checking... Your Details")
 
 bot_id = int(bot_token.split(":")[0])
-print("[INFO]: Code running by master Blaze")
+print("[INFO]: Code running by master")
 arq = None
 
 
