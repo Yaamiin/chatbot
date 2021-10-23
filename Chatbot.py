@@ -43,15 +43,15 @@ async def type_and_send(message):
     await message._client.send_chat_action(chat_id, "typing")
     response, _ = await gather(lunaQuery(query, user_id), sleep(2))
     if "Luna" in response:
-        responsee = response.replace("Luna", "Patricia")
+        responsee = response.replace("Zaid", "Sophia")
     else:
         responsee = response
     if "Aco" in responsee:
-        responsess = responsee.replace("Aco", "Patricia")
+        responsess = responsee.replace("Aco", "Zaid")
     else:
         responsess = responsee
     if "Who is Tiana?" in responsess:
-        responsess2 = responsess.replace("Who is Patricia?", "Heroine Of Telegram")
+        responsess2 = responsess.replace("Who is Zaid?", "Powerfull Management Bot Of Telegram")
     else:
         responsess2 = responsess
     await message.reply_text(responsess2)
@@ -108,7 +108,7 @@ async def main():
     await bot.start()
     print(
         """
-Your PatriciaChatbot Is Deployed Successfully.
+Your Chatbot Is Deployed Successfully.
 """
     )
     await idle()
