@@ -1,9 +1,9 @@
 {
-  "name": "PATRICIA",
+  "name": "Chatbot",
   "description": "Open-Source bot for Aichat bot",
-  "logo": "https://telegra.ph/file/8a3fa88eef5dfd2d0e411.png",
+  "logo": "https://telegra.ph/file/9692ff2f665403c78fce9.png",
   "keywords": ["aichatbot", "chatbot", "telegram"],
-  "repository": "https://github.com/TEAM-PATRICIA/PatriciaChatbot",
+  "repository": "https://github.com/Itsunknown-12/Chatbot",
   "buildpacks": [{
   "url": "heroku/python"
   }],
