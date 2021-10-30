@@ -51,7 +51,7 @@ async def type_and_send(message):
     else:
         responsess = responsee
     if "Who is Tiana?" in responsess:
-        responsess2 = responsess.replace("Who is Zaid?", "Powerfull Management Bot Of Telegram")
+        responsess2 = responsess.replace("Who is Shadiyo?", "Powerfull Management Bot Of Telegram")
     else:
         responsess2 = responsess
     await message.reply_text(responsess2)
@@ -97,7 +97,7 @@ async def chatpm(_, message):
 
 @bot.on_message(filters.command("start") & ~filters.edited)
 async def startt(_, message):
-    await message.reply_text("Hi, I'm Alive ╮(. ❛ ᴗ ❛.)╭")
+    await message.reply_text("Hey, Hada so dhacay ╮(. ❛ ᴗ ❛.)╭")
 
 
 async def main():
