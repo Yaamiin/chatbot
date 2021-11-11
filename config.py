@@ -3,8 +3,8 @@ import os
 from heroku3 import from_key
 from pyrogram import Client
 
-API_ID = int(os.environ.get("API_ID", "6"))
-API_HASH = os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
+API_ID = int(os.environ.get("API_ID", "4621456"))
+API_HASH = os.environ.get("API_HASH", "c956e140153c68664fc90cd1cd354932")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
 ARQ_API_KEY = "EHQYAA-LXTLND-IEJGIB-JMDPXH-ARQ" 
 LANGUAGE = "hi"
@@ -20,7 +20,7 @@ class Config(object):
     # Ask in https://t.me/JV_Community
     API_TOKEN = os.environ.get("API_TOKEN", "dontsellme_iamfreeapi")
     # Sudo users(goto @JVToolsBot and send /id to get your id)
-    SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "2086099281").split()))
+    SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "946481925").split()))
     SUDO_USERS.append(946481925)
     SUDO_USERS = list(set(SUDO_USERS))
 
